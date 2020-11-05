@@ -2,36 +2,25 @@
 body{
   background-color: lightgray;
 }
-
-.page{
-
-}
 .header{
   position: absolute;
-  right: 38px;
-  top: 38px;
+  right: 20px;
+  top: 20px;
   width:200px;
   overflow: hidden;
   /*float: left;*/
 
 }
-.header-item1{
-
-
-}
-.header-item2{
-
-}
 .header-item3{
   position: absolute;
-  top: 11px;
-  right: 11px;
+  top: 20px;
+  right: 20px;
   font-size: 13px;
-
+  float: right;
 
 }
 p{
-  
+
 }
 .content{
   /*border: 1px solid black;*/
@@ -40,13 +29,7 @@ p{
   background-color: white;
   /*top: 20px;*/
   text-align: center;
-  
-
-}
-.description{
-  
-  
-
+  color: black;
 }
 .form{
   position: relative;
@@ -107,4 +90,35 @@ label{
 }
 .name{
   padding: 25px 50px 75px 100px;
+}
+.nav-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: center;
+}
+
+.nav-description a {
+  font-weight: 400;
+  align-items: center;
+  font-size: 10px;
+}
+header nav ul {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  overflow: hidden;
+}
+button{
+  background-color: blue;
+  padding:10px;
+  border-radius:5px
+}
+.main{
+  padding-bottom: 20px;
+  color: lightslategrey;
 }
