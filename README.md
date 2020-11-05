@@ -1,1 +1,1 @@
- rebuilding the form used by Mint.com (see attached link) for signing up new users 
+ rebuilding the form used by Mint.com for signing up new users 
