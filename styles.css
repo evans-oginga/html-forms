@@ -1,22 +1,51 @@
+
+body{
+  background-color: lightgray;
+}
+
 .page{
 
 }
 .header{
   position: absolute;
-  right: 0;
+  right: 38px;
+  top: 38px;
   width:200px;
+  overflow: hidden;
+  /*float: left;*/
+
+}
+.header-item1{
+
+
+}
+.header-item2{
+
+}
+.header-item3{
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  font-size: 13px;
+
 
 }
 p{
-  float: left;
+  
 }
 .content{
-  width: 350px;
+  /*border: 1px solid black;*/
+  width: 450px;
   margin: 0 auto;
-  top: 20px;
+  background-color: white;
+  /*top: 20px;*/
+  text-align: center;
+  
 
 }
 .description{
+  
+  
 
 }
 .form{
@@ -25,5 +54,57 @@ p{
 
 }
 .footer{
+  width: 650px;
+  margin: 0 auto;
+  top: 20px;
+  text-align: center;
 
+}
+a{
+  color: blue;
+}
+.data{
+  width: 350px;
+  height: 30px;
+  padding-bottom: 10px;
+}
+label{
+  text-align: left;
+}
+.consent{
+  font-style: italic;
+  font-size: 15px;
+}
+.info{
+  text-align: left;
+}
+.recap{
+  font-size: 10px;
+}
+.wrapper{
+  position: absolute;
+  top: 300px;
+  left: 350px;
+  height: 1000px;
+}
+.button{
+  color:#FFF;
+  background-color: #5995DA;
+  font-weight:bold;
+  padding:20px;
+  text-align:center;
+  border-radius:5px;
+  width:350px;
+  box-sizing:border-box;
+  margin: 20px auto;
+
+}
+.rates{
+  font-size: 11px;
+}
+.learn{
+  font-size: 13px;
+}
+.name{
+  padding: 25px 50px 75px 100px;
 }
